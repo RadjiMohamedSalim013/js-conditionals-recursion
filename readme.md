@@ -1,8 +1,9 @@
+Voici le fichier `README.md` mis à jour avec la précision concernant l'installation des dépendances et la mention de l'absence de l'utilisation de `switch` :
 
 ```markdown
 # Projet de Prise de Décision et de Récursion en JavaScript
 
-Ce projet comprend deux principales fonctionnalités : une prise de décision (avec `if-else` et `switch`) et des fonctions récursives. Le projet contient également une démonstration d'un programme utilisant le package `prompt-sync` pour la gestion des entrées utilisateur.
+Ce projet comprend deux principales fonctionnalités : une prise de décision (avec `if-else`) et des fonctions récursives. Le projet contient également une démonstration d'un programme utilisant le package `prompt-sync` pour la gestion des entrées utilisateur.
 
 ## Fonctionnalités
 
@@ -42,11 +43,11 @@ Cette fonction calcule le résultat de l'élévation d'un nombre à une puissanc
 1. Clonez ce projet sur votre machine locale :
 
 ```bash
-git clone <url_du_projet>
-cd <nom_du_projet>
+git clone https://github.com/RadjiMohamedSalim013/js-conditionals-recursion.git
+cd js-conditionals-recursion
 ```
 
-2. Installez les dépendances nécessaires, y compris le package `prompt-sync` pour la gestion des entrées utilisateur :
+2. Installez les dépendances nécessaires, y compris le package `prompt-sync` pour la gestion des entrées utilisateur. Exécutez la commande suivante dans votre terminal pour installer les dépendances :
 
 ```bash
 npm install prompt-sync
@@ -85,5 +86,4 @@ Exécutez la fonction `puissance` pour calculer un nombre élevé à une certain
 ```javascript
 puissance(2, 3);  // Affiche 8 (2^3)
 ```
-
 

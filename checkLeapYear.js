@@ -9,3 +9,6 @@ const checkLeapYear = year => {
         return false;
     }
 };
+
+// Exemple d'utilisation
+checkLeapYear(2000); // Affiche "2000 est une année bissextile"
